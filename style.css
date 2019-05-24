@@ -1,5 +1,5 @@
 body{
-  font-family: 'Lucida Grande', 'Helvetica Neue', sans-serif;
+  font-family: 'Arial', 'Helvetica Neue', sans-serif;
 }
 #googlelogo{
   display: block;
@@ -69,4 +69,20 @@ body{
 #miclogo{
   margin-top: 7px;
   width: 5%;
+}
+
+#langs{
+  text-align: center;
+  margin: 37px auto;
+  font-size: 13px;
+}
+
+.lang{
+  padding: 0 4px;
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.lang:hover{
+  text-decoration: underline;
 }
