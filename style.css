@@ -1,10 +1,46 @@
 body{
   font-family: 'Arial', 'Helvetica Neue', sans-serif;
 }
+
 #googlelogo{
   display: block;
   width: 270px;
   margin: 0 auto;
+}
+
+#navbar{
+  display: table;
+  margin-top: 10px;
+  text-align: center;
+  margin-right: 12px;
+  margin-left: auto;
+}
+
+.navicons{
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 13px;
+  padding: 0 8px;
+}
+
+#lid{
+  padding-top: 3px;
+}
+
+#lpro{
+  padding-top: 4px;
+}
+
+#profile{
+  width: 34px;
+}
+
+#drawer{
+  width: 25px;
+}
+
+.navicons:hover{
+  text-decoration: underline;
 }
 
 #searchtools{
@@ -27,7 +63,7 @@ body{
 }
 
 #main{
-  margin: 15% auto;
+  margin: 11.5% auto;
 }
 
 .searchbutton:hover{
@@ -54,6 +90,7 @@ body{
   padding: 0 15px;
   margin: 0 8px;
   text-decoration: none;
+  outline: none;
 }
 
 #boxgraphic{
@@ -64,6 +101,10 @@ body{
   height: 42px;
   border: 1px solid #dfe1e5;
   border-radius: 24px;
+}
+
+#boxgraphic:hover, #boxgraphic:focus-within{
+  box-shadow: 0px 0px 8px rgba(0,0,0,.1);
 }
 
 #miclogo{
@@ -85,4 +126,61 @@ body{
 
 .lang:hover{
   text-decoration: underline;
+}
+
+#footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 82px;
+  width: 100%;
+  background-color: rgb(248, 248, 248);
+  text-align: left;
+  display: table;
+}
+
+#ch, #list1{
+  display: table-row;
+}
+
+#leftl, #rightl{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#rightl{
+  text-align: right;
+  padding-right: 16px;
+}
+
+#leftl{
+  text-align: left;
+  padding-left: 16px;
+}
+
+.aba, .pts{
+  color: #5F6368;
+  display: inline;
+  padding: 0 12px;
+}
+
+.aba:hover, .pts:hover{
+  text-decoration: underline;
+}
+
+#chtxt{
+  color: #5F6368;
+  font-size: 15px;
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 28px;
+  border-bottom: 1pt solid rgba(0,0,0,.03);
+  border-top: 1pt solid rgba(0,0,0,.03);
+}
+
+#chtxt2{
+  display: table-cell;;
+  vertical-align: middle;
+  border-bottom: 1pt solid rgba(0,0,0,.03);
+  border-top: 1pt solid rgba(0,0,0,.03);
 }
